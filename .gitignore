@@ -1,0 +1,23 @@
+bin/
+obj/
+publish/
+.vs/
+.idea/
+*.user
+*.suo
+*.log
+*.pdb
+.stop
+settings.json
+
+# Earlier script-based prototype files are intentionally not part of the app.
+Codex-OLED-Monitor.ps1
+Start-Codex-OLED.cmd
+Stop-Codex-OLED.cmd
+Stop-Codex-OLED.ps1
+Run-Codex-OLED-Hidden.vbs
+Enable-Autostart.cmd
+Enable-Autostart.ps1
+Disable-Autostart.cmd
+Disable-Autostart.ps1
+OLED-preview.png

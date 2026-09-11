@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Codex OLED Monitor</title>
+  <desc id="desc">A dark rounded-square icon with a white C-shaped monitor ring and a green live indicator.</desc>
+  <defs>
+    <linearGradient id="bg" x1="32" y1="24" x2="224" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#202A36"/>
+      <stop offset="1" stop-color="#0B1017"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect x="16" y="16" width="224" height="224" rx="56" fill="url(#bg)" filter="url(#shadow)"/>
+  <path d="M177 76a76 76 0 1 0 1 103" fill="none" stroke="#F5F7FA" stroke-width="25" stroke-linecap="round"/>
+  <path d="M175 108v40h-48" fill="none" stroke="#F5F7FA" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="196" cy="194" r="27" fill="#151C25" stroke="#0B1017" stroke-width="8"/>
+  <circle cx="196" cy="194" r="16" fill="#20D46B"/>
+</svg>
